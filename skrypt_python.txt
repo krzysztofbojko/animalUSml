@@ -1,0 +1,7 @@
+skrypt pyhton
+wejscie do podfolderów
+odczytanie plików graficznych jpg i stworzenie dodatkowej kopii:
+-obróconej o 90
+-180 stopnii
+-270 stopnii
+-stworzenie odbicia lustrzanego

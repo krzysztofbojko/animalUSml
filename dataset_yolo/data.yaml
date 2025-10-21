@@ -1,0 +1,23 @@
+names:
+- lion
+- raccoon
+- western_grey_squirrel
+- mink
+- coyote
+- goose
+- rat
+- black_bear
+- mouse
+- beaver
+- gray_fox
+- bob_cat
+- muledeer
+- otter
+- horse
+- elephant
+- skunk
+- turkey
+nc: 18
+test: dataset_yolo/test/images
+train: dataset_yolo/train/images
+val: dataset_yolo/val/images
