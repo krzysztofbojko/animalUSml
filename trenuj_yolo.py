@@ -16,7 +16,7 @@ MODEL_STARTOWY = 'yolov8m.pt'
 # --- KONIEC KONFIGURACJI ---
 
 # 1. Załaduj model YOLO
-# Model sam pobierze wagi (wiedzę) z internetu
+
 print(f"Ładowanie bazowego modelu: {MODEL_STARTOWY}")
 model = YOLO(MODEL_STARTOWY) 
 
@@ -24,9 +24,9 @@ model = YOLO(MODEL_STARTOWY)
 print(f"Rozpoczynam trening na danych z: {DATA_YAML_PATH}")
 model.train(
     data=DATA_YAML_PATH, # Ścieżka do pliku konfiguracyjnego
-    epochs=200,         # 100 epok to dobry start dla YOLO
-    imgsz=640,          # Rozmiar obrazu (YOLO samo zrobi letterboxing!)
-    batch=16            # Możesz zwiększyć, jeśli masz dużo VRAM (np. 32)
+    epochs=200,         
+    imgsz=640,          
+    batch=8            
 )
 
 print("Trening zakończony!")
